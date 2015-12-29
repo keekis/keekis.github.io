@@ -1,8 +1,8 @@
 body, div {
     margin: 0;
     padding: 0;
+    border:0;
 }
-
 h1 {color:blue; font-size:20px;}
 
 ul {
