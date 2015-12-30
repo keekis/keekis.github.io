@@ -20,10 +20,9 @@ li {
 
 a:link, a:visited {
     display: block;
-    width: 120px;
+    width: 150px;
     font-weight: bold;
     color: #FFFFFF;
-    background-color: #98bf21;
     text-align: center;
     padding: 4px;
     text-decoration: none;
