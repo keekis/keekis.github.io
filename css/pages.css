@@ -14,8 +14,6 @@ ul {
 
 li {
     float: left;
-    padding: 5 10 5 10;
-    background-color: grey;
 }
 
 a:link, a:visited {
