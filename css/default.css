@@ -1,0 +1,127 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.row, .col {
+  overflow: hidden; position: absolute;
+}
+
+.row {
+  left: 0; right:0;
+}
+
+.col {
+  top:0; bottom:0;
+}
+
+.scroll-x {overflow-x: auto;}
+.scroll-y {overflow-y: auto;}
+.header.row {height:50px;}
+.body.row {top:45px; bottom: 50px; background: lightgrey; text-align:center;}
+.footer.row {height: 50px; bottom:0; text-align:center; background-color: black; color:white; padding:10px;}
+
+.wrapper {
+    max-width: -webkit-calc(800px);
+    max-width: calc(800px);
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.social-media-list {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.social-media-list a {
+    font-size: 200%;
+    padding-right: 5%;
+    text-align: center;
+    color: #adadad;
+}
+
+.contact-list, .social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.wrapper:after, .footer-col-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fa-github:before {
+    content: "\f09b";
+}
+
+.home img {
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    width: 220px;
+    -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.home h1 {
+    color: #555;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .25rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #555;
+    font-size: 20px;
+    letter-spacing: .05rem;
+    font-family: "Lora", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .16rem;
+}
+
+.contact-list, .social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1 {
+  color:blue; font-size:20px;
+}
